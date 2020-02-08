@@ -131,7 +131,7 @@ h1{
 /* testimonials */
 #testimonials{
   text-align: center;
-  background-color: #72b5b7;
+  background-color: #ffc7c7;
   color: #fff;
 }
 
@@ -152,7 +152,7 @@ h1{
 }
 
 #press{
-  background-color: #72b5b7;
+  background-color: #ffc7c7;
   padding: 3%;
   text-align: center;
 }
@@ -169,4 +169,23 @@ h1{
 
 .pricing-colom{
   padding: 3% 2%;
+}
+
+/* call to action */
+#cta{
+  background-color: #63b7af;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social-icon{
+  margin: 20px 10px;
 }
