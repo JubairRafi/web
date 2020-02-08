@@ -48,18 +48,57 @@ h1{
 
 .title-image{
   width: 60%;
+  border-radius: 7%;
   transform: rotate(30deg);
   position: absolute;
   right: 35%;
-  top: 40%;
+  top: 50%;
 }
 
 .title-image1{
   width: 60%;
+  border-radius: 7%;
   transform: rotate(30deg);
   position: absolute;
   left: 65%;
-  top: 70%;
+  top: 80%;
+}
+
+.title-image2{
+  width: 60%;
+  border-radius: 7%;
+  transform: rotate(30deg);
+  position: absolute;
+  left: 60%;
+}
+
+@media (max-width: 1140px){
+  .title-image{
+    border-radius: 15%;
+    transform: rotate(0deg);
+    position: static;
+    margin: 10px;
+  }
+
+  .title-image1{
+
+    border-radius: 15%;
+    transform: rotate(0deg);
+    position: static;
+    margin: 10px;
+  }
+
+  .title-image2{
+
+    border-radius: 15%;
+    transform: rotate(0deg);
+    position: static;
+    margin: 10px;
+  }
+  #title{
+    text-align: center;
+  }
+
 }
 
 /* features */
