@@ -1,6 +1,5 @@
 #title{
-  background-color: #63b7af;
-  color: #fff;
+
 }
 
 body{
@@ -15,6 +14,15 @@ h1{
 
 .container-fluid{
   padding: 3% 15% 7%;
+}
+
+/* section */
+.colored-section{
+  background-color: #63b7af;
+  color: #fff;
+}
+.white-section{
+background-color: #fff;
 }
 
 /* navigation bar */
@@ -72,6 +80,7 @@ h1{
   left: 60%;
 }
 
+/* css response */
 @media (max-width: 1140px){
   .title-image{
     border-radius: 15%;
@@ -109,7 +118,6 @@ h1{
 }
 #features{
   padding: 7% 15%;
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -132,7 +140,6 @@ h1{
 #testimonials{
   text-align: center;
   background-color: #ffc7c7;
-  color: #fff;
 }
 
 .testimonial-text{
@@ -173,8 +180,6 @@ h1{
 
 /* call to action */
 #cta{
-  background-color: #63b7af;
-  color: #fff;
   text-align: center;
   padding: 7% 15%;
 }
