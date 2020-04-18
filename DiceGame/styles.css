@@ -21,6 +21,13 @@ h1 {
   font-size: 8rem;
   color: #4ECCA3;
 }
+h3{
+  margin: 10px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 3px 0 #232931;
+  font-size: 2rem;
+  color: #4ECCA3;
+}
 
 p {
   font-size: 2rem;
