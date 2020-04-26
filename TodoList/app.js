@@ -49,7 +49,10 @@ function dltchck(e){
   //dlt todo
   if (item.classList[0] === "delete-btn") {
       const todo = item.parentElement;
-      todo.remove();
+      todo.classList.add("fall");
+      todo.addEventListener("transitionend",()=> {
+        todo.remove();
+      });
   }
 
   //chck todo
